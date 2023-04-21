@@ -1,0 +1,50 @@
+.header{
+    background-color:#E6F7F1;
+    display:flex;
+    justify-content:space-between;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.header h1{
+    color:rgb(65, 78, 90);
+    margin-left:47%;
+}
+.intro{
+    text-align:center;
+    background-color:#CECCE4;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.games{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color:#FBF8CF;
+    padding-top:40px;
+    padding-bottom: 20px;
+}
+.header a{
+    padding:30px;
+}
+.header a:link{
+    color: black;
+}
+.header a:visited{
+    color:rgb(65, 78, 90);
+}
+.game{
+    position:relative;
+}
+.game h3{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.game:hover h3{
+    opacity:1;
+}
+.game:hover img{
+    opacity:0.3;
+}
